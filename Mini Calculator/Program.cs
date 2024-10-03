@@ -6,6 +6,7 @@ class Program
     {
         var userInput = new UserInput();
         var conversionMath = new ConversionMaths();
+        var optionCalls = new OptionCalls();
         
         Console.WriteLine("Welcome to the Mini Calculator! An app designed to assist you with household math. Do you need a demonstration? (Y/N)");
 
@@ -46,9 +47,8 @@ class Program
                     optionNumber = userInput.UserOption();
                     if (optionNumber == 1)
                     {
-                        Console.WriteLine("Please enter your measurement(in inches).");
-                        var inches = userInput.MeasurementInInches();
-                        var convert = conversionMath.InchesToCentimeters(inches);
+                        var convert = optionCalls.ConvertInToCm();
+                        
                         Console.WriteLine($"Your measurement is {convert}cm.");
                     }
                     break;
