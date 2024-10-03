@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("You need curtains for your new apartment, but the website you are ordering from uses Metric measurements. You can use the Mini Calculator to perform the conversion! Follow along step-by-step.");
             Console.WriteLine("Please enter the width of your window in inches...");
 
-            var inches = userInput.MeasurementInInches();
+            var inches = userInput.MeasurementInStandard();
 
             var measurementInCentimeters = conversionMath.InchesToCentimeters(inches);
 
@@ -50,6 +50,24 @@ class Program
                         var convert = optionCalls.ConvertInToCm();
                         
                         Console.WriteLine($"Your measurement is {convert}cm.");
+                    }
+                    else if (optionNumber == 2)
+                    {
+                        var convert = optionCalls.ConvertInToMeters();
+
+                        Console.WriteLine($"Your measurement is {convert}meters.");
+                    }
+                    else if (optionNumber == 3)
+                    {
+                        var convert = optionCalls.ConvertFtToCm();
+
+                        Console.WriteLine($"Your measurement is {convert}cm.");
+                    }
+                    else if (optionNumber == 4)
+                    {
+                        var convert = optionCalls.ConvertFtToMeters();
+
+                        Console.WriteLine($"Your measurement is {convert}meters.");
                     }
                     break;
                 default:

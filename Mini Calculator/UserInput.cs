@@ -17,20 +17,23 @@ public class UserInput
 
     public int UserOption()
     {
-        var option = 0;
-        int.TryParse(Console.ReadLine(), out option);
-        while (option == null || option == 0)
+        int option;
+        while (!int.TryParse(Console.ReadLine(), out option) || option <= 0)
         {
             Console.WriteLine("I'm sorry, please choose a number from the list...");
-            int.TryParse(Console.ReadLine(), out option);
+            
         }
 
         return option;
     }
 
-    public double MeasurementInInches()
+    public double MeasurementInStandard()
     {
-        double.TryParse(Console.ReadLine(), out double measurement);
+        double measurement;
+        while (!double.TryParse(Console.ReadLine(), out measurement) || measurement <= 0)
+        {
+            Console.WriteLine("I'm sorry, please enter a valid number greater than 0.");
+        }
         return measurement;
     }
     
