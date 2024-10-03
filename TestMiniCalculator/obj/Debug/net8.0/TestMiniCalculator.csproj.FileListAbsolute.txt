@@ -1,0 +1,6 @@
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/bin/Debug/net8.0/CoverletSourceRootsMapping_TestMiniCalculator
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/obj/Debug/net8.0/TestMiniCalculator.csproj.AssemblyReference.cache
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/obj/Debug/net8.0/TestMiniCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/obj/Debug/net8.0/TestMiniCalculator.AssemblyInfoInputs.cache
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/obj/Debug/net8.0/TestMiniCalculator.AssemblyInfo.cs
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMiniCalculator/obj/Debug/net8.0/TestMiniCalculator.csproj.CoreCompileInputs.cache
