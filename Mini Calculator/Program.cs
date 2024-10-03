@@ -41,6 +41,16 @@ class Program
                 case 4:
                     break;
                 case 5:
+                    Console.WriteLine("Let's get converting! Which conversion do you need?");
+                    PromptLists.ConversionMenu();
+                    optionNumber = userInput.UserOption();
+                    if (optionNumber == 1)
+                    {
+                        Console.WriteLine("Please enter your measurement(in inches).");
+                        var inches = userInput.MeasurementInInches();
+                        var convert = conversionMath.InchesToCentimeters(inches);
+                        Console.WriteLine($"Your measurement is {convert}cm.");
+                    }
                     break;
                 default:
                     break;

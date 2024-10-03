@@ -12,3 +12,4 @@
 /Users/carlymead/Desktop/repos/Mini Calculator/Mini Calculator/obj/Debug/net8.0/Mini Calculator.pdb
 /Users/carlymead/Desktop/repos/Mini Calculator/Mini Calculator/obj/Debug/net8.0/Mini Calculator.genruntimeconfig.cache
 /Users/carlymead/Desktop/repos/Mini Calculator/Mini Calculator/obj/Debug/net8.0/ref/Mini Calculator.dll
+/Users/carlymead/Desktop/repos/Mini Calculator/Mini Calculator/obj/Debug/net8.0/Mini Calculator.sourcelink.json

@@ -33,4 +33,6 @@ public class UserInput
         double.TryParse(Console.ReadLine(), out double measurement);
         return measurement;
     }
+    
+    
 }
