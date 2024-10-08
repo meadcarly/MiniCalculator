@@ -36,6 +36,16 @@ public class UserInput
         }
         return measurement;
     }
+
+    public decimal Measurement()
+    {
+        decimal measurement;
+        while (!decimal.TryParse(Console.ReadLine(), out measurement) || measurement <= 0)
+        {
+            Console.WriteLine("I'm sorry, please enter a valid number greater than 0.");
+        }
+        return measurement;
+    }
     
     
 }

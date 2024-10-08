@@ -7,6 +7,7 @@ class Program
         var userInput = new UserInput();
         var conversionMath = new ConversionMaths();
         var optionCalls = new OptionCalls();
+        var basicMath = new BasicMaths();
         
         Console.WriteLine("Welcome to the Mini Calculator! An app designed to assist you with household math. Do you need a demonstration? (Y/N)");
 
@@ -34,6 +35,12 @@ class Program
             switch (optionNumber)
             {
                 case 1:
+                    Console.WriteLine("Ok, let's do addition! Please enter the first number.");
+                    var firstInteger = userInput.Measurement();
+                    Console.WriteLine("Excellent, now the second number...");
+                    var secondInteger = userInput.Measurement();
+                    var sum = basicMath.Addition(firstInteger, secondInteger);
+                    Console.WriteLine($"The sum of {firstInteger} and {secondInteger} is: {sum}");
                     break;
                 case 2:
                     break;
