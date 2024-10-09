@@ -43,6 +43,12 @@ class Program
                     Console.WriteLine($"The sum of {firstInteger} and {secondInteger} is: {sum}");
                     break;
                 case 2:
+                    Console.WriteLine("Let's do subtraction! Please enter the first number.");
+                    var integerOne = userInput.Measurement();
+                    Console.WriteLine("Excellent, now the second number...");
+                    var integerTwo = userInput.Measurement();
+                    var subtraction = basicMath.Subtraction(integerOne, integerTwo);
+                    Console.WriteLine($"The sum of {integerOne} and {integerTwo} is: {subtraction}.");
                     break;
                 case 3:
                     break;
