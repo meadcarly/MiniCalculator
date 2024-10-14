@@ -18,4 +18,12 @@ public class PromptLists
         Console.WriteLine("3. Feet to centimeters");
         Console.WriteLine("4. Feet to meters");
     }
+
+    public static void ChooseShape()
+    {
+        Console.WriteLine("1. Square");
+        Console.WriteLine("2. Rectangle");
+        Console.WriteLine("3. Square");
+        Console.WriteLine("4. Circle");
+    }
 }

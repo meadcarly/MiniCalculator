@@ -102,3 +102,4 @@
 /Users/carlymead/Desktop/repos/Mini Calculator/TestMini_Calculator/obj/Debug/net8.0/TestMini_Calculator.pdb
 /Users/carlymead/Desktop/repos/Mini Calculator/TestMini_Calculator/obj/Debug/net8.0/TestMini_Calculator.genruntimeconfig.cache
 /Users/carlymead/Desktop/repos/Mini Calculator/TestMini_Calculator/obj/Debug/net8.0/ref/TestMini_Calculator.dll
+/Users/carlymead/Desktop/repos/Mini Calculator/TestMini_Calculator/obj/Debug/net8.0/TestMini_Calculator.sourcelink.json

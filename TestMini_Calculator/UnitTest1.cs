@@ -90,4 +90,37 @@ public class UnitTest1
         //Assert
         Assert.Equal(expected, actual);
     }
+
+    [Theory]
+    [InlineData(5, 5, 25)]
+    [InlineData(24.2, 18.0, 435.6)]
+    [InlineData(0, 3, 0)]
+    [InlineData(3, 0, 0)]
+
+    public void AreaOfRectangleTest(decimal length, decimal width, decimal expected)
+    {
+        //Arragnge
+        var conversionMaths = new ConversionMaths();
+        //Act
+        var actual = conversionMaths.AreaOfRectangle(length, width);
+        //Assert
+        Assert.Equal(expected, actual);
+    }
+
+    [Theory]
+    [InlineData(5, 25)]
+    [InlineData(0, 0)]
+    [InlineData(10, 100)]
+    [InlineData(4.4, 19.36)]
+    [InlineData(24.25, 588.0625)]
+
+    public void AreaOfSquareTest(decimal length, decimal expected)
+    {
+        //Arrange
+        var conversionMaths = new ConversionMaths();
+        //Act
+        var actual = conversionMaths.AreaOfSquare(length);
+        //Assert
+        Assert.Equal(expected, actual);
+    }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestMini_Calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c18bb4cb8f6050d836ccda455edfe2aca197f4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestMini_Calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestMini_Calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

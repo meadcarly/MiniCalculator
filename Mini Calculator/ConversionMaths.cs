@@ -22,4 +22,24 @@ public class ConversionMaths
     {
         return feet * 0.3048;
     }
+
+    public decimal AreaOfRectangle(decimal length, decimal width)
+    {
+        return length * width;
+    }
+
+    public decimal AreaOfSquare(decimal length)
+    {
+        return length * length;
+    }
+
+    public decimal AreaOfTriangle()
+    {
+        throw new NotImplementedException();
+    }
+
+    public decimal AreaOfCircle()
+    {
+        throw new NotImplementedException();
+    }
 }
