@@ -33,7 +33,7 @@ public class ConversionMaths
         return length * length;
     }
 
-    public decimal AreaOfTriangle()
+    public decimal AreaOfTriangle(decimal baseLength, decimal height)
     {
         throw new NotImplementedException();
     }

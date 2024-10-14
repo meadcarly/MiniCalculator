@@ -123,4 +123,20 @@ public class UnitTest1
         //Assert
         Assert.Equal(expected, actual);
     }
+
+    [Theory]
+    [InlineData(2, 1.5, 1.5)]
+    [InlineData(0, 2, 0)]
+    [InlineData(2, 0 ,0)]
+    [InlineData(44.2, 29.3, 647.53)]
+
+    public void AreaOfTriangleTest(decimal baseLength, decimal height, decimal expected)
+    {
+        //Arrange
+        var conversionMaths = new ConversionMaths();
+        //Act
+        var actual = conversionMaths.AreaOfTriangle(baseLength, height);
+        //Assert
+        Assert.Equal(expected, actual);
+    }
 }
