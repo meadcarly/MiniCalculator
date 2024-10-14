@@ -35,7 +35,7 @@ public class ConversionMaths
 
     public decimal AreaOfTriangle(decimal baseLength, decimal height)
     {
-        throw new NotImplementedException();
+        return 0.5m * (baseLength * height);
     }
 
     public decimal AreaOfCircle()
