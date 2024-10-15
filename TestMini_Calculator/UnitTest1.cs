@@ -139,4 +139,17 @@ public class UnitTest1
         //Assert
         Assert.Equal(expected, actual);
     }
+
+    [Theory]
+    [InlineData(5, 78.54)]
+    [InlineData(34, 3631.68)]
+    public void AreaOfCircleTest(double radius, decimal expected)
+    {
+        //Arrange
+        var conversionMaths = new ConversionMaths();
+        //Act
+        var actual = conversionMaths.AreaOfCircle(radius);
+        //Assert
+        Assert.Equal(expected, actual);
+    }
 }
