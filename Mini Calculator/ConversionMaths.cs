@@ -40,6 +40,8 @@ public class ConversionMaths
 
     public decimal AreaOfCircle(double radius)
     {
-        throw new NotImplementedException();
+            var area = Math.PI * Math.Pow(radius, 2);
+            var areaCircle = (decimal)area;
+            return Math.Round(areaCircle, 2);
     }
 }
