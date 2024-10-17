@@ -51,6 +51,29 @@ class Program
                     Console.WriteLine($"The sum of {integerOne} and {integerTwo} is: {subtraction}.");
                     break;
                 case 3:
+                    Console.WriteLine("Let's determine the area! Please choose your shape.");
+                    PromptLists.ChooseShape();
+                    optionNumber = userInput.UserOption();
+                    if (optionNumber == 1)
+                    {
+                        var area = optionCalls.DetermineAreaRectangle();
+                        Console.WriteLine($"The area of your rectangle is: {area} inches.");
+                    }
+                    else if (optionNumber == 2)
+                    {
+                        var area = optionCalls.DetermineAreaSquare();
+                        Console.WriteLine($"The area of your square is: {area} inches.");
+                    }
+                    else if (optionNumber == 3)
+                    {
+                        var area = optionCalls.DetermineAreaTriangle();
+                        Console.WriteLine($"The area of your triangle is: {area} inches.");
+                    }
+                    else
+                    {
+                        var area = optionCalls.DetermineAreaCircle();
+                        Console.WriteLine($"The area of your circle is: {area} inches.");
+                    }
                     break;
                 case 4:
                     break;
