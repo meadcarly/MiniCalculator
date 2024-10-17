@@ -61,7 +61,7 @@ public class OptionCalls
     
     public decimal DetermineAreaCircle()
     {
-        Console.WriteLine("Please enter the length of your rectangle in inches.");
+        Console.WriteLine("Please enter the radius of your circle in inches.");
         var radius = _userInput.Measurement();
         return _conversionMath.AreaOfCircle((double)radius);
     }

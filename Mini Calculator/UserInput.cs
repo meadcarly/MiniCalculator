@@ -26,6 +26,18 @@ public class UserInput
 
         return option;
     }
+    
+    public int UserOptionFourOptions()
+    {
+        int option;
+        while (!int.TryParse(Console.ReadLine(), out option) || option <= 0 || option > 4)
+        {
+            Console.WriteLine("I'm sorry, please choose a number from the list...");
+            
+        }
+
+        return option;
+    }
 
     public double MeasurementInStandard()
     {

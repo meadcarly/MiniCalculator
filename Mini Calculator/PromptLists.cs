@@ -21,9 +21,9 @@ public class PromptLists
 
     public static void ChooseShape()
     {
-        Console.WriteLine("1. Square");
-        Console.WriteLine("2. Rectangle");
-        Console.WriteLine("3. Square");
+        Console.WriteLine("1. Rectangle");
+        Console.WriteLine("2. Square");
+        Console.WriteLine("3. Triangle");
         Console.WriteLine("4. Circle");
     }
 }

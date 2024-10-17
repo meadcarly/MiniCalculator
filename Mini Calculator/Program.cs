@@ -53,7 +53,7 @@ class Program
                 case 3:
                     Console.WriteLine("Let's determine the area! Please choose your shape.");
                     PromptLists.ChooseShape();
-                    optionNumber = userInput.UserOption();
+                    optionNumber = userInput.UserOptionFourOptions();
                     if (optionNumber == 1)
                     {
                         var area = optionCalls.DetermineAreaRectangle();
@@ -69,7 +69,7 @@ class Program
                         var area = optionCalls.DetermineAreaTriangle();
                         Console.WriteLine($"The area of your triangle is: {area} inches.");
                     }
-                    else
+                    else if (optionNumber == 4)
                     {
                         var area = optionCalls.DetermineAreaCircle();
                         Console.WriteLine($"The area of your circle is: {area} inches.");
