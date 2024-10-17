@@ -7,8 +7,7 @@ public class PromptLists
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
         Console.WriteLine("3. Calculate square footage");
-        Console.WriteLine("4. Find the volume");
-        Console.WriteLine("5. Convert to Metric");
+        Console.WriteLine("4. Convert to Metric");
     }
     
     public static void ConversionMenu()

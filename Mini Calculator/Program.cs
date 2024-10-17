@@ -30,7 +30,7 @@ class Program
         {
             Console.WriteLine("Okay great! What do you need to do?");
             PromptLists.UserMenu();
-            var optionNumber = userInput.UserOption();
+            var optionNumber = userInput.UserOptionFourOptions();
 
             switch (optionNumber)
             {
@@ -40,7 +40,7 @@ class Program
                     Console.WriteLine("Excellent, now the second number...");
                     var secondInteger = userInput.Measurement();
                     var sum = basicMath.Addition(firstInteger, secondInteger);
-                    Console.WriteLine($"The sum of {firstInteger} and {secondInteger} is: {sum}");
+                    Console.WriteLine($"The sum of {firstInteger} and {secondInteger} is: {sum}.");
                     break;
                 case 2:
                     Console.WriteLine("Let's do subtraction! Please enter the first number.");
@@ -48,7 +48,7 @@ class Program
                     Console.WriteLine("Excellent, now the second number...");
                     var integerTwo = userInput.Measurement();
                     var subtraction = basicMath.Subtraction(integerOne, integerTwo);
-                    Console.WriteLine($"The sum of {integerOne} and {integerTwo} is: {subtraction}.");
+                    Console.WriteLine($"The total if you subtract {integerTwo} from {integerOne} is: {subtraction}.");
                     break;
                 case 3:
                     Console.WriteLine("Let's determine the area! Please choose your shape.");
@@ -76,8 +76,6 @@ class Program
                     }
                     break;
                 case 4:
-                    break;
-                case 5:
                     Console.WriteLine("Let's get converting! Which conversion do you need?");
                     PromptLists.ConversionMenu();
                     optionNumber = userInput.UserOption();
